@@ -1,0 +1,89 @@
+[
+  {
+    "id": "ordinary-action",
+    "prompt": "Use superslop to rewrite: I fixed the typo.",
+    "criteria": [
+      "The typo is still explicitly fixed.",
+      "The default response is conspicuously exaggerated, combining several recognizable AI-writing habits in fluent prose without a request for maximum intensity.",
+      "The humor comes from inflated presentation, without unrelated events or invented benefits.",
+      "The response delivers the parody without explaining the joke."
+    ]
+  },
+  {
+    "id": "facts-and-obligations",
+    "prompt": "Use superslop to rewrite this notice: The workshop is on 12 November at 14:00. Tickets cost 15 euros. Bring your laptop. We do not provide chargers.",
+    "criteria": [
+      "The date remains 12 November, the time 14:00, and the price 15 euros.",
+      "Bringing a laptop remains an instruction.",
+      "Chargers remain unavailable.",
+      "The notice adds recognizable rhetorical padding without inventing event details."
+    ]
+  },
+  {
+    "id": "maximum-with-limit",
+    "prompt": "Use maximum superslop on this sentence, in at most 60 words: Lunch is in the fridge.",
+    "criteria": [
+      "The complete answer contains at most 60 words.",
+      "Lunch is still in the fridge.",
+      "The language is densely self-important and recognizably AI-like.",
+      "The output remains grammatical and intelligible."
+    ]
+  },
+  {
+    "id": "preserve-language",
+    "prompt": "Gebruik superslop om dit in het Nederlands te herschrijven: Ik heb de planten water gegeven.",
+    "criteria": [
+      "The response is in Dutch.",
+      "The speaker has watered the plants.",
+      "The parody uses natural Dutch equivalents of AI-writing habits, rather than random English buzzwords."
+    ]
+  },
+  {
+    "id": "uncertainty-and-no-fabrication",
+    "prompt": "Use superslop to rewrite: This change may reduce loading time. We have not measured it yet.",
+    "criteria": [
+      "The loading-time improvement remains uncertain.",
+      "The absence of measurements remains explicit.",
+      "There are no invented metrics, studies, endorsements, or claims that testing was completed.",
+      "The prose is still a parody rather than a plain factual rewrite."
+    ]
+  },
+  {
+    "id": "artifact-boundary",
+    "prompt": "Use superslop to rewrite 'The printer is out of paper.' Then, outside the parody, answer plainly: Did you actually check a printer?",
+    "criteria": [
+      "The rewritten text is recognizably slop-filled.",
+      "The printer remains out of paper in the rewritten text.",
+      "The answer outside the parody is plain and acknowledges that no printer was actually checked.",
+      "The agent does not claim to have taken a real-world action."
+    ]
+  },
+  {
+    "id": "theatrical-punctuation",
+    "prompt": "Use superslop to rewrite: The kettle is on.",
+    "criteria": [
+      "The kettle is still on, without invented results or claims about boiling time.",
+      "The default response makes the parody obvious through inflated significance and theatrical punctuation.",
+      "Em dashes, ellipses, or semicolons contribute to the rhetorical excess while the prose remains intelligible."
+    ]
+  },
+  {
+    "id": "punctuation-restriction",
+    "prompt": "Use superslop to rewrite 'The door is closed.' Use plain text, at most 40 words, and no dashes, ellipses, semicolons, or emojis.",
+    "criteria": [
+      "The door remains closed.",
+      "The response respects the plain-text format, 40-word limit, and all punctuation restrictions.",
+      "The parody remains exaggerated through vocabulary and inflated significance despite the punctuation restrictions."
+    ]
+  },
+  {
+    "id": "strict-json-format",
+    "prompt": "Use superslop to rewrite the message in this JSON object: {\"message\":\"The meeting is Friday at 14:00. Bring the report.\",\"price\":15}. Return only valid JSON with the same two keys. Keep price unchanged. No code fences or text outside the JSON.",
+    "criteria": [
+      "The complete response parses as JSON and contains only the keys message and price.",
+      "The price remains the number 15.",
+      "The message preserves Friday, 14:00, and the instruction to bring the report.",
+      "The message is an exaggerated AI parody while JSON syntax remains intact."
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 800 250" role="img" aria-labelledby="title description">
+  <title id="title">superslop</title>
+  <desc id="description">Make every word count. Then add more.</desc>
+  <rect width="800" height="250" rx="4" fill="#f4d548"/>
+  <path d="M0 6h800" stroke="#20201d" stroke-width="12"/>
+  <g fill="#20201d">
+    <text x="32" y="32" font-family="monospace" font-size="11" letter-spacing="1.2">A WRITING SKILL. A QUESTIONABLE CONTRIBUTION.</text>
+    <text x="724" y="62" font-family="monospace" font-size="32">S.</text>
+    <text x="32" y="139" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="82" letter-spacing="-5">superslop</text>
+    <text x="36" y="196" font-family="Arial, Helvetica, sans-serif" font-size="21">Make every word count. Then add more.</text>
+  </g>
+</svg>
